@@ -1,0 +1,16 @@
+[project]
+name = "palantir-tlo"
+version = "0.1.0"
+description = "Ty w kuli na animowanym tle - wirtualna kamera do Teams"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "pyvirtualcam",
+    "mediapipe",
+    "pillow",
+    "certifi",
+]
+
+[tool.uv]
+package = false
